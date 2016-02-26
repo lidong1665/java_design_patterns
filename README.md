@@ -91,3 +91,12 @@ public class Test {
 	}
 
 }
+
+
+#2.单例模式的使用场景
+确保某一个类中只有一个实例，而且自行实例化并且向整个系统提供一个实例。
+singleton包下的Singleton是懒汉式单例，Singleton双检查单例，Singleton2饿汉式单例
+
+#3.Builder设计模式
+将一个复杂的对象的构建与他的表示分离，使的同样的构建过程可以构建不同的表示。
+builder包下Builder。
