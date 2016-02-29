@@ -16,7 +16,7 @@ public class Singleton1 {
 	public static Singleton1 getInstance() {
 
 		if (instance == null) {//避免不必要的同步
-			synchronized (instance) {
+			synchronized (Singleton1.class) {
 				if (instance == null) {//为null的时候创建实例
 					instance = new Singleton1();
 				}
